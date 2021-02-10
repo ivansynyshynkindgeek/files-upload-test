@@ -1,0 +1,3 @@
+#!/bin/sh
+set -euo pipefail
+./files-upload-test -Xmx512m
