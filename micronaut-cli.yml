@@ -1,6 +1,6 @@
-applicationType: function
+applicationType: default
 defaultPackage: com.example
-testFramework: junit
+testFramework: spock
 sourceLanguage: java
 buildTool: gradle
-features: [app-name, aws-lambda, gradle, java, junit, logback, readme, shade, yaml]
+features: [ annotation-api, app-name, aws-lambda, aws-lambda-custom-runtime, docker, file-watch, graalvm, gradle, java, logback, readme, shade, spock, yaml ]

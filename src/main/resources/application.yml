@@ -1,6 +1,8 @@
 micronaut:
   application:
     name: files-upload-test
+    security:
+      enabled: false
 aws:
   s3AccessKeyId: ${AWS_S3_ACCESS_KEY_ID}
   s3SecretKey: ${AWS_S3_SECRET_KEY}

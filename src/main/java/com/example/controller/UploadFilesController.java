@@ -4,8 +4,11 @@ import com.example.service.S3Service;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Post;
+import io.micronaut.security.annotation.Secured;
+import io.micronaut.security.rules.SecurityRule;
 
 @Controller("upload/v.1")
+@Secured(SecurityRule.IS_ANONYMOUS)
 public class UploadFilesController {
 
     private final S3Service s3Service;

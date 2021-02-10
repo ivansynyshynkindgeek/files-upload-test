@@ -1,0 +1,10 @@
+{
+  "resources": [
+    {
+      "pattern": "\\Qcom/amazonaws/partitions/endpoints.json\\E"
+    },
+    {
+      "pattern": "\\Qcom/amazonaws/sdk/versionInfo.properties\\E"
+    }
+  ]
+}
